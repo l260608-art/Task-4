@@ -1,0 +1,89 @@
+body {
+    background-color: #e0f2f1;
+    font-family: "Courier New", monospace;
+}
+
+.journal-wrapper {
+    background-color: #ffffff;
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.header-box {
+    background-color: #a7ffeb;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.header-title {
+    color: #00bfa5;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: right;
+    margin: 0;
+}
+
+.header-sub {
+    color: #00bfa5;
+    text-align: right;
+    margin: 5px 0 0 0;
+}
+
+.sidebar {
+    float: left;
+    width: 22%;
+    background-color: #26a69a;
+    border: 4px solid #00796b;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar h3 {
+    color: #a7ffeb;
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.sidebar ul {
+    color: #ff5252;
+    padding-left: 20px;
+}
+
+.main-content {
+    float: right;
+    width: 70%;
+}
+
+.entry-box {
+    border: 4px solid #b2dfdb;
+    background-color: #e0f2f1;
+    padding: 15px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.entry-title {
+    color: #009688;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.entry-date {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+}
+
+.entry-box p {
+    color: #a1887f;
+    line-height: 1.5;
+}
+
+.entry-box img {
+    float: right;
+    width: 150px;
+    margin: 0 0 10px 15px;
+    border: 1px solid gray;
+}
